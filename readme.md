@@ -1,6 +1,6 @@
 # hash_compat
 
-This library is intended to provide forward compatibility with the hash_* functions that ship with PHP 5.5.
+Provide forward compatibility with the `hash_*` functions that ship with PHP 5.5.
 
 ## Installation
 
