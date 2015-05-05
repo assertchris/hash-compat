@@ -3,6 +3,7 @@
 namespace PasswordCompat;
 
 use PHPUnit_Framework_TestCase;
+use SebastianBergmann\RecursionContext\InvalidArgumentException;
 
 class HashPBKDF2Test extends PHPUnit_Framework_TestCase
 {
@@ -105,6 +106,48 @@ class HashPBKDF2Test extends PHPUnit_Framework_TestCase
                     true
                 )
             )
+        );
+    }
+
+    /**
+     * @expectedException InvalidArgumentException
+     */
+    public function testInvalidAlgorithmCausesExceptions()
+    {
+        hash_pbkdf2(
+            "foo",
+            "password",
+            "salt",
+            1000,
+            0
+        );
+    }
+
+    /**
+     * @expectedException InvalidArgumentException
+     */
+    public function testInvalidIterationCountCausesExceptions()
+    {
+        hash_pbkdf2(
+            "sha1",
+            "password",
+            "salt",
+            -1,
+            0
+        );
+    }
+
+    /**
+     * @expectedException InvalidArgumentException
+     */
+    public function testInvalidKeyLengthCausesExceptions()
+    {
+        hash_pbkdf2(
+            "sha1",
+            "password",
+            "salt",
+            1000,
+            -1
         );
     }
 }
