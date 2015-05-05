@@ -1,5 +1,5 @@
 {
-    "name": "assertchris/hash_compat",
+    "name": "assertchris/hash-compat",
     "description": "Provides forward compatibility with the hash_* functions that ship with PHP 5.5",
     "license": "MIT",
     "authors": [
