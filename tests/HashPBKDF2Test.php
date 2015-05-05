@@ -2,8 +2,8 @@
 
 namespace PasswordCompat;
 
+use InvalidArgumentException;
 use PHPUnit_Framework_TestCase;
-use SebastianBergmann\RecursionContext\InvalidArgumentException;
 
 class HashPBKDF2Test extends PHPUnit_Framework_TestCase
 {
