@@ -1,4 +1,4 @@
-# hash_compat
+# hash-compat
 
 [![Build Status](http://img.shields.io/travis/assertchris/hash-compat.svg?style=flat-square)](https://travis-ci.org/assertchris/hash-compat)
 [![Code Quality](http://img.shields.io/scrutinizer/g/assertchris/hash-compat.svg?style=flat-square)](https://scrutinizer-ci.com/g/assertchris/hash-compat)
@@ -11,7 +11,7 @@ Provides forward compatibility with the `hash_*` functions that ship with PHP 5.
 ## Installation
 
 ```sh
-$ composer require assertchris/hash_compat
+$ composer require assertchris/hash-compat
 ```
 
 ## Usage
