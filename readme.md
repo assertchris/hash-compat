@@ -2,7 +2,7 @@
 
 [![Build Status](http://img.shields.io/travis/assertchris/hash_compat.svg?style=flat-square)](https://travis-ci.org/assertchris/hash_compat)
 [![Code Quality](http://img.shields.io/scrutinizer/g/assertchris/hash_compat.svg?style=flat-square)](https://scrutinizer-ci.com/g/assertchris/hash_compat)
-[![Code Coverage](http://img.shields.io/scrutinizer/coverage/g/assertchris/hash_compat.svg?style=flat-square)](http://assertchris.github.io/hash_compat/master)
+![Code Coverage](http://img.shields.io/scrutinizer/coverage/g/assertchris/hash_compat.svg?style=flat-square)
 [![Version](http://img.shields.io/packagist/v/assertchris/hash_compat.svg?style=flat-square)](https://packagist.org/packages/assertchris/hash_compat)
 [![License](http://img.shields.io/packagist/l/assertchris/hash_compat.svg?style=flat-square)](licence.md)
 
